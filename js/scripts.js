@@ -62,6 +62,7 @@ whatsappBtn.addEventListener('click', () => {
   const encodedText = encodeURIComponent(informationContent)
   var url = `https://api.whatsapp.com/send?text=${encodedText}`
   window.open(url, "_blank");
+  console.log(encodedText);
 })
 
 
