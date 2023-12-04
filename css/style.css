@@ -15,7 +15,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
-    height: 85vh;
+    height: 90vh;
     color: #224037;
 }
 a{color: inherit;}
@@ -33,7 +33,7 @@ button{cursor: pointer;}
     z-index: 100;
 }
 .active{
-    height: 450px;
+    height: 540px;
 }
 #information{
     padding: 16px;
@@ -76,7 +76,7 @@ p{
     color: #AD9E63;
 }
 h3{ 
-    padding: 5px 0;
+    padding: 12px 0;
     text-align: center;
     display: none;
 }
@@ -88,6 +88,9 @@ h3{
     .container{
         width: 750px;
         height: 490px;
+    }
+    .container.active{
+        height: 515px;
     }
     h1{font-size: 32px;}
     h2{text-align: center; padding: 20px 0; font-size: 28px;}
